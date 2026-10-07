@@ -34,6 +34,34 @@ public class MainActivity extends AppCompatActivity {
 
 
         // =========================================
+        // EVENTOS CLIC DE LOS 3 INTENTS EXPLICITOS
+        // =========================================
+        btnPatologias.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PatologiasActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnMedicamentos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MedicamentosActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnAyuda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PrimerosAuxiliosActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        // =========================================
         // EVENTOS CLIC DE LOS 5 INTENTS IMPLICITOS
         // =========================================
         btnMapa.setOnClickListener(new View.OnClickListener() {
@@ -63,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // =============================================
-    //          METODOS DE LOS 5 INTENTS IMPLÍCITOS
+    //        METODOS DE LOS 5 INTENTS IMPLÍCITOS
     // =============================================
 
     private void abrirMapaHospital() {
@@ -96,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void enviarExamenes() {
+    private void enviarCorreo() {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:"));
         intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"doctorj@hospitalbl.cl"});
