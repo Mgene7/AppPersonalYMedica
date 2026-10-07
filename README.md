@@ -29,15 +29,13 @@ El proyecto cuenta con la rama principal y la rama secundaria `feature/intents` 
 
 ## Capturas de Pantalla
 
-<img width="720" height="1560" alt="WhatsApp Image 2026-10-07 at 05 51 27 (1)" src="https://github.com/user-attachments/assets/8b9014b1-7d81-41c1-a0df-90b198b07f92" />
+<img width="250" alt="WhatsApp Image 2026-10-07 at 05 51 27 (1)" src="https://github.com/user-attachments/assets/e60a1db1-437a-483c-834a-cdd46ca968d8" />
 
-<img width="720" height="1560" alt="WhatsApp Image 2026-10-07 at 05 51 27 (1)" src="https://github.com/user-attachments/assets/e60a1db1-437a-483c-834a-cdd46ca968d8" />
+<img width="250" alt="WhatsApp Image 2026-10-07 at 05 52 42" src="https://github.com/user-attachments/assets/b9d4747b-eabb-42ed-a325-7a8aac902d01" />
 
-<img width="720" height="1560" alt="WhatsApp Image 2026-10-07 at 05 52 42" src="https://github.com/user-attachments/assets/b9d4747b-eabb-42ed-a325-7a8aac902d01" />
+<img width="250" alt="WhatsApp Image 2026-10-07 at 05 55 25" src="https://github.com/user-attachments/assets/c4c4131f-6491-4d31-b821-4879d2db67c9" />
 
-<img width="720" height="1560" alt="WhatsApp Image 2026-10-07 at 05 55 25" src="https://github.com/user-attachments/assets/c4c4131f-6491-4d31-b821-4879d2db67c9" />
-
-<img width="720" height="1560" alt="WhatsApp Image 2026-10-07 at 05 55 26" src="https://github.com/user-attachments/assets/50b6b8c7-9b43-4a82-9dd2-87868e2aee82" />
+<img width="250" alt="WhatsApp Image 2026-10-07 at 05 55 26" src="https://github.com/user-attachments/assets/50b6b8c7-9b43-4a82-9dd2-87868e2aee82" />
 
 <img width="720" height="1560" alt="WhatsApp Image 2026-10-07 at 05 55 26 (1)" src="https://github.com/user-attachments/assets/535b0bbe-4515-49d5-8fb6-454bc84b3f88" />
 
