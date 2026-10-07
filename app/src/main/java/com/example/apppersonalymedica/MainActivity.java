@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnCorreo.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) { enviarExamenes(); }
+            public void onClick(View view) { enviarCorreo(); }
         });
 
         btnSms.setOnClickListener(new View.OnClickListener() {

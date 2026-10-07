@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PrimerosAuxiliosActivity">
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primeros Auxilios"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qué hacer en caso de convulsión:\n\n1. Mantener la calma y despejar el área de objetos peligrosos.\n\n2. Poner algo suave bajo su cabeza.\n\n3. Girar a la persona suavemente de lado (posición de seguridad).\n\n4. NO introducir nada en su boca.\n\n5. Tomar el tiempo que dura la convulsión (mayor a 5 min es muy grave)."
+        android:textSize="18sp"
+        android:lineSpacingExtra="8dp"/>
+
+</LinearLayout>
