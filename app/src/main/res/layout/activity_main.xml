@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@color/fondo_suave">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚨 Ficha de Emergencia 🚨"
+        android:textColor="@color/rojo_urgencia"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="👤 Nombre: Isabel Catalina Bobadilla Romero"
+        android:textColor="@color/azul_medico"
+        android:textSize="18sp"
+        android:layout_marginBottom="25dp"/>
+
+    <!-- ========================================= -->
+    <!--       5 INTENTS IMPLÍCITOS                -->
+    <!-- ========================================= -->
+
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/azul_medico"
+        android:text="🗺️ VER HOSPITAL QUE ME CORRESPONDE"/>
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/verde_farmacia"
+        android:text="💊 BUSCAR FARMACIA DE TURNO"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/naranja_ayuda"
+        android:text="📞 LLAMAR A FAMILIAR"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/azul_medico"
+        android:text="📧 ENVIAR CORREO A DOCTOR PERSONAL"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/rojo_urgencia"
+        android:text="📱 ENVIAR SMS A FAMILIAR"
+        android:layout_marginTop="8dp"/>
+
+    <!-- ========================================= -->
+    <!--       3 INTENTS EXPLÍCITOS                -->
+    <!-- ========================================= -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📂 Datos importantes"
+        android:textColor="@color/azul_medico"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnPatologias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🩺 VER ENFERMEDADES ACTUALES"/>
+
+    <Button
+        android:id="@+id/btnMedicamentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 VER MEDICAMENTOS ACTUALES"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnAyuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚑AYUDA EN CONVULSIÓN"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
